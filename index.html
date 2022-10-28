@@ -9,58 +9,180 @@
         
     </head>
     <body>
-        <div class="navbar">
-            <a href="" id="navbar_title">Agence Web</a>
-            <ul class="nav_menu">
-                <li class="nav_item">Accueil</li>
-                <li  class="nav_item">Qui sommes-nous ?</li>
-                <li class="nav_item"> Portfolio </li>
-                <li class="nav_item"> Prix </li>
-                <li class="nav_item"> Blog </li>
-                <li class="nav_item"> FAQ </li>
-                <li class="nav_item"> Contact </li>
-            </ul>
-        </div>
 
-        <div class="hero">
-            <div class="hero_title">
-                <h1>Conception et developpement web</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nihil inventore eos aliquam natus eius officia adipisci quod, architecto cupiditate, harum ipsum asperiores facilis vero placeat porro deserunt iusto earum.</p>
+        <!-- Navbar -->
+        <section>
+            <div class="navbar">
+                <a href="" id="navbar_title">Agence Web</a>
+                <ul class="nav_menu">
+                    <li class="nav_item">
+                        <a href="#" class="active">Accueil</a>
+                    </li>
+                    <li  class="nav_item">
+                        <a href="#">Qui sommes-nous ?</a>
+                    </li>
+                    <li class="nav_item"> 
+                        <a href="#">Portfolio</a> 
+                    </li>
+                    <li class="nav_item"> 
+                        <a href="#">Prix</a>    
+                    </li>
+                    <li class="nav_item"> 
+                        <a href="#">Blog</a>    
+                    </li>
+                    <li class="nav_item"> 
+                        <a href="#">FAQ</a>    
+                    </li>
+                    <li class="nav_item"> 
+                        <a href="#">Contact</a>    
+                    </li>
+                </ul>
             </div>
-            <div class="hero_image">
-                <img src="images/hero.jpg" alt="">
+        </section>
+
+        <!-- Hero section -->
+        <section>
+            <div class="hero">
+                <div class="hero_title">
+                    <h1>Conception et developpement web</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nihil inventore eos aliquam natus eius officia adipisci quod, architecto cupiditate, harum ipsum asperiores facilis vero placeat porro deserunt iusto earum.</p>
+                    <button>
+                        Nous contacter
+                    </button>
+                </div>
+                <div class="hero_image">
+                    <img src="images/bg/01.webp" alt="">
+                </div>
             </div>
-        </div>
+        </section>
         
 
         <!-- Services section -->
-        <div id="services">
-            <h1>Nos services</h1>
-
-            <div class="grid services_container">
-                <div>
-                    App Mobile
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sequi consequatur, autem eaque dolor nisi dolorem ea quae, soluta impedit illo commodi deleniti nam dolore ullam, incidunt expedita quod! Aliquam.
-                    </p>
-                </div>
-                <div>
-                    App web
-
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla fugit voluptates exercitationem suscipit eveniet, expedita corrupti sint. Voluptates mollitia, illum assumenda ea fugiat deserunt animi, vel quidem, maxime numquam harum?
-                    </p>
-                </div>
-                <div>
-                    Logiciel Pc
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse corporis, et aliquam quas ut repudiandae voluptatum delectus quia! Quisquam laudantium quidem nesciunt, nemo eveniet reprehenderit officiis natus culpa officia?
-                    </p>
+        <section>
+            <div id="services">
+                <h1>Nos services</h1>
+                <div class="grid services_container">
+                    <div>
+                        <h2>
+                            App Mobile
+                        </h2>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sequi consequatur, autem eaque dolor nisi dolorem ea quae, soluta impedit illo commodi deleniti nam dolore ullam, incidunt expedita quod! Aliquam.
+                        </p>
+                    </div>
+                    <div>
+    
+                        <h2>
+                            App web
+                        </h2>
+    
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla fugit voluptates exercitationem suscipit eveniet, expedita corrupti sint. Voluptates mollitia, illum assumenda ea fugiat deserunt animi, vel quidem, maxime numquam harum?
+                        </p>
+                    </div>
+                    <div>
+                        <h2>
+                            Logiciel Pc
+                        </h2>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse corporis, et aliquam quas ut repudiandae voluptatum delectus quia! Quisquam laudantium quidem nesciunt, nemo eveniet reprehenderit officiis natus culpa officia?
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!--Team -->
+
+        <section>
+            <div id="team">
+                <h1 class="text-center">Notre equipe</h1>
+
+                <div class="grid grid-column-4 text-center">
+                    <div>
+                        <div>
+                            <img src="images/avatar2.jpeg" alt="">
+                        </div>
+                        <div class="name">
+                            Admin
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/avatar2.jpeg" alt="">
+                        </div>
+                        <div class="name">
+                            User
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/avatar2.jpeg" alt="">
+                        </div>
+                        <div class="name">
+                            Test
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/avatar2.jpeg" alt="">
+                        </div>
+                        <div class="name">
+                            John Doe
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section-->
+        <section id="contact" class="bg-light ">
+            <h1 class="text-center">Contact</h1>
+
+            <div class="grid grid-columns-2 align-items-center">
+                <div class="">
+                    <img src="images/contact.png" alt="">
+                </div>
+                <div class=" form">
+                    <form action="" >
+                        <div class="form_group">
+                            <div>
+                                <label for="name">Nom</label>
+                            </div>
+                            <input type="text" name="" id="name">
+                        </div>
+
+                        <div class="form_group">
+                            <div>
+                                <label for="email">Email</label>
+                            </div>
+                            <input type="email" name="" id="email">
+                        </div>
+
+                        <div class="form_group">
+                            <div>
+                                <label for="email">Message</label>
+                            </div>
+                            <textarea name="" id=""  rows="10"></textarea>
+                        </div>
+
+                        <div class="form_group">
+                            <input type="submit" value="Envoyer">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <footer class="text-center">
+                <div>
+                    Copyright 2022 &copy; Agence web
+                </div>
+            </footer>
+        </section>
 
     </body>
 </html>

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins";
     margin: 0px;
     padding: 0px;
 }
@@ -30,22 +31,35 @@ ul.nav_menu{
     margin-right: 20px;
 }
 
+.nav_item a {
+    color: rgb(234, 231, 231);
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+}
+
 .hero{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    
+
 }
 .hero_title {
     padding: 100px;
     padding-top: 60px;
 }
 
-.hero_title h1{
-    font-size:40px;
-
+h1{
+    font-size:50px;
 }
 
 #services h1{
     text-align: center;
+    font-size : 50px
 }
 
 .services_container{
@@ -68,4 +82,119 @@ ul.nav_menu{
 
 .grid {
     display: grid;
+}
+
+
+#services {
+    background-color: rgb(234, 231, 231);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.grid-column-4 {
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.grid-column-4 div {
+    margin: 10px;
+}
+
+#team img {
+    border: 2px dashed indigo;
+}
+
+#team .name {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: indigo;
+    color: white;
+    padding: 20px;
+}
+
+.hero_image img {
+    width: 100%;
+}
+
+.hero button {
+    background-color: indigo;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.bg-light {
+    background-color: rgb(234, 231, 231);
+}
+
+
+#contact {
+    padding: 30px;
+}
+
+.grid-columns-2{
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+input {
+    height: 30px;
+    
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.form {
+    width: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+input[type=submit] {
+    background-color: indigo;
+    color: white;
+    font-size: 17px;
+    height: 40px;
+}
+
+.form_group {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.align-items-center {
+    align-items: center;
 }
